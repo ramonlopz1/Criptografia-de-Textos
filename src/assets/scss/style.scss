@@ -6,11 +6,6 @@ body {
     box-sizing: border-box;
     background-image: linear-gradient(180deg, black, $color4);
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
     margin: 0;
     padding: 0;
 }
@@ -29,6 +24,7 @@ section {
     height: 700px;
     width: 600px;
     padding: 20px;
+    margin: auto;
     z-index: 100000;
     position: relative;
 
@@ -37,7 +33,17 @@ section {
     align-items: center;
     flex-direction: column;
 
-    
+    #containerIcon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        width: 70px;
+
+        i {
+            color: white;
+        }
+    }
 
     h1 {
         color: white;

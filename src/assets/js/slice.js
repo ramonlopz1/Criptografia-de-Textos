@@ -53,10 +53,8 @@ function searchEncryptedMSG (fullText, searchMSG, letter) {
 
 
 
-let nomee = "raimobern"
+let nomee = "vaiimes senter foberdenterr"
         let novoArray = []
-
-        
 
         for(let letra of nomee) {
             if(nomee.search("ober") !== -1) {
@@ -73,24 +71,4 @@ let nomee = "raimobern"
         }
         console.log(nomee)
 
-    // console.log(nomee.search("ober"))
-   // console.log(nomee.slice(4, 8))
-    
-    
-    /**
-     *   if(nomee.search("enter")) {
-        nomee = nomee.replace("enter", "e")
-    } else if(nomee.search("imes")) {
-        nomee = nomee.replace("imes", "i")
-    } else if(nomee.search("ai")) {
-        nomee = nomee.replace("ai", "a")
 
-
-        else if(nomee.search("ufat")) {
-        nomee = nomee.replace("ufat", "u")
-    }
-     */
-
-    console.log()
-    
-    console.log(nomee.search("rai"))

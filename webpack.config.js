@@ -9,7 +9,12 @@ const modoDev = process.env.NODE_ENV !== 'production';
 
 module.exports = {
     mode: modoDev ? 'development' : 'production',
-    entry: ["./src/main.js", "./src/assets/js/script.js", "./src/assets/js/matrix.js"],
+    entry: [
+        "./src/main.js", 
+        "./src/assets/js/script.js", 
+        "./src/assets/js/matrix.js",
+        "./src/assets/js/pulse.js"
+    ],
 
     output: {
         filename: 'assets/js/main.js',

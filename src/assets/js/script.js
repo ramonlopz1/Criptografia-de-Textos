@@ -28,7 +28,7 @@ function searchEncryptedMSG (fullText, searchMSG, letter) {
     return arrayOfMSG
 }
 
-// caso encontre palavras encriptadas, faz-se a descriptação
+// caso encontre palavras criptografadas, faz-se a descriptação
 function letsDecrypt(nome) {
     for(let letra of nome) {
         if(nome.search("ober") !== -1) {
