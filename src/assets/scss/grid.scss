@@ -24,13 +24,23 @@ body {
 @media (max-width: 1660px) {
     
     section {
-        height: 550px;
-        width: 450px;
+        height: 500px;
+        width: 1000px;
         
+        #cards {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row;
+            width: inherit;
+        }
+
+        #card1 {
+            height: 300px;
+        }
 
         #card1, #card2 {
-            height: 150px;
-            width: 350px;
+            width: 400px;
 
             h2 {
                 font-size: 18px;

@@ -13,7 +13,8 @@ module.exports = {
         "./src/main.js", 
         "./src/assets/js/script.js", 
         "./src/assets/js/matrix.js",
-        "./src/assets/js/pulse.js"
+        "./src/assets/js/pulse.js",
+        "./src/assets/js/animationContainers.js"
     ],
 
     output: {
