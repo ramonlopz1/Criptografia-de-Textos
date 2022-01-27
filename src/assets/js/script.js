@@ -57,7 +57,7 @@ buttons.forEach(button => {
                 sendResultCrypted()
                 animation()
         } else {
-            alert('Insira apenas letras minúsculas')
+            alert('Insira apenas letras minúsculas.')
         }
     }   
 });
