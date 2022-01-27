@@ -12,7 +12,6 @@ function letsEncrypt(ctx) {
     return ctxToArray.join("")
 };
 
-
 // caso encontre palavras criptografadas, faz-se a descriptação
 function letsDecrypt(ctx) {
     for(let i = 0; i < ctx.length; i ++) {
@@ -39,13 +38,13 @@ function sendResultCrypted() {
 
 // eventos onclick para cada tipo de botão
 
-const allowedCharacters = /^[a-z]+$/g
+const testCharacters = /^[a-z0-9 ]*$/g
 const { animation } = require('./animationContainers')
 const buttons = document.querySelectorAll('button')
 
 buttons.forEach(button => {
     button.onclick = () => {
-        if(inputMSG.value.match(allowedCharacters)) {
+        if(inputMSG.value.match(testCharacters)) {
             if (button.hasAttribute('uncrypted')) {
                 isCrypted = true
             } else if (button.hasAttribute('crypted')) {
